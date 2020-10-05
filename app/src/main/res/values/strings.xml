@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DataDragon</string>
+
+    <string name="loading_screen_user">Loading Screen User</string>
+
+    <string name="generate">Generate</string>
+
+    <string name="champion">Champion</string>
+    <string name="skin">Skin</string>
+    <string name="username">Username</string>
+    <string name="club">Club</string>
+    <string name="side">Side</string>
+    <string name="blue">B</string>
+    <string name="red">R</string>
+    <string name="spell_left">Left Spell</string>
+    <string name="spell_right">Right Spell</string>
+    <string name="icon">Icon</string>
+    <string name="rune_primary">Keystone</string>
+    <string name="rune_secondary">Secondary</string>
+
+</resources>

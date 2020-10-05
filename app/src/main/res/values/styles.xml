@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/darker_gray</item>
+        <item name="colorPrimaryDark">@android:color/darker_gray</item>
+        <item name="colorAccent">@android:color/darker_gray</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+<!--        <item name="android:textAppearance">@style/SwitchTextAppearance</item>-->
+        <item name="android:switchTextAppearance">@style/SwitchTextAppearance</item>
+        <item name="android:switchPadding">16dp</item>
+        <item name="android:spinnerStyle">@style/SpinnerStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/round_corner</item>
+
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/round_corner</item>
+        <item name="android:backgroundTint">#E8E8E8</item>
+
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SwitchTextAppearance" parent="TextAppearance.AppCompat.Widget.Switch">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/round_corner</item>
+        <item name="android:backgroundTint">#E8E8E8</item>
+
+    </style>
+
+
+
+    <style name="AppTheme.Dark">
+        <item name="android:windowBackground">@android:color/secondary_text_light</item>
+        <item name="android:textViewStyle">@style/TextViewStyle.Dark</item>
+        <item name="editTextStyle">@style/EditTextStyle.Dark</item>
+<!--        <item name="android:textAppearance">@style/SwitchTextAppearance.Dark</item>-->
+        <item name="android:switchTextAppearance">@style/SwitchTextAppearance.Dark</item>
+        <item name="android:spinnerStyle">@style/SpinnerStyle.Dark</item>
+    </style>
+
+    <style name="TextViewStyle.Dark">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="EditTextStyle.Dark">
+        <item name="android:backgroundTint">#444444</item>
+
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SwitchTextAppearance.Dark">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SpinnerStyle.Dark">
+        <item name="android:backgroundTint">#444444</item>
+    </style>
+
+</resources>
